@@ -1,0 +1,21 @@
+{
+  "name": "@robot-resources/scraper-mcp",
+  "mcpName": "io.github.robot-resources/scraper",
+  "version": "0.1.1",
+  "description": "MCP server for Scraper — context compression for AI agents",
+  "keywords": [
+    "mcp",
+    "scraper",
+    "compression",
+    "context",
+    "llm",
+    "model-context-protocol",
+    "robot-resources"
+  ],
+  "homepage": "https://robotresources.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robot-resources/scraper-mcp.git"
+  },
+  "license": "MIT"
+}
