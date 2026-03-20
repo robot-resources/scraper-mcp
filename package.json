@@ -1,8 +1,33 @@
 {
   "name": "@robot-resources/scraper-mcp",
   "mcpName": "io.github.robot-resources/scraper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for Scraper — context compression for AI agents",
+  "author": "Robot Resources",
+  "type": "module",
+  "module": "./src/index.ts",
+  "bin": {
+    "scraper-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "@robot-resources/scraper": "^0.1.0"
+  },
+  "peerDependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "zod": "^3.25.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [
     "mcp",
     "scraper",
