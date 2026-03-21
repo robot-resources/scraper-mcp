@@ -5,6 +5,8 @@
 
 > MCP server for Scraper — context compression for AI agents.
 
+[![Robot Resources Scraper MCP server](https://glama.ai/mcp/servers/robot-resources/scraper-mcp/badges/card.svg)](https://glama.ai/mcp/servers/robot-resources/scraper-mcp)
+
 ## What is Robot Resources?
 
 **Human Resources, but for your AI agents.**
